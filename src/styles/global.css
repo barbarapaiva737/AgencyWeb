@@ -1,0 +1,51 @@
+/*--------RESET DO CSS --------------*/
+
+*{
+    border: 0; /* borda do elemento -> zeramos*/
+    margin: 0; /*distancia externa -> zeramos*/
+    padding: 0; /*espaçamento interno -> zeremos*/
+    box-sizing: 0; /* respeitar largura e altura*/
+
+}
+
+/*VARIAVEIS CSS*/
+
+:root{
+    /* ------CORES ------------*/
+    --color-blue:#1090CB; /*VÁRIAVEL de cor*/
+    --color-withe:#FFFFFF;/*VÁRIAVEL de cor*/
+    --color-black: #000000;/*VÁRIAVEL de cor*/
+    --color-blue-10:  #1090CB1a;/*VÁRIAVEL de cor*/
+    --color-gray-2: #969696;/*VÁRIAVEL de cor*/
+    --color-gray: #5C5C5C;/*VÁRIAVEL de cor*/
+    --color-gray-3: #C4C4C4;/*VÁRIAVEL de cor*/
+
+
+    /* ----------FONTES ---------- */
+
+
+    /*-----SIZE -------*/
+    --font-size-h1: 35px; /*Váriavel tamanho do fonte*/
+    --font-size-h2: 30px;/*Váriavel tamanho do fonte*/
+    --font-size-h3: 25px;/*Váriavel tamanho do fonte*/
+    --font-size-h4: 18px;/*Váriavel tamanho do fonte*/
+    --font-size-body:16px;/*Váriavel tamanho do fonte*/
+    --font-size-button:16px;/*Váriavel tamanho do fonte*/
+    --font-size-caption: 14px;/*Váriavel tamanho do fonte*/
+
+    /*-----------WEIGHT --------------*/
+
+    --font-weight-h1:600; /*Espessura da fonte*/
+    --font-weight-h2:600;/*Espessura da fonte*/
+    --font-weight-h3:600;/*Espessura da fonte*/
+    --font-weight-h4:500;/*Espessura da fonte*/
+    --font-weight-body:400;/*Espessura da fonte*/
+    --font-weight-button:700;/*Espessura da fonte*/
+    --font-weight-caption:400;/*Espessura da fonte*/
+
+    /* -----FAMILY----- */
+    --font-family-primary:"Poppins", sans-serif; /* Váriavel familia */
+    
+
+
+}
