@@ -1,1 +1,42 @@
 @import url("./global.css");
+
+header{
+
+    display: flex;/*Para que o grupo fique ao lado outro*/
+    justify-content: space-between; /* Colocar nas extremidades*/
+    padding: 30px; /*Espaçamento interno*/
+    align-items: center; /* Catralizar na vertical*/
+    border-bottom: 0.7px solid var(--color-gray-3); /* Borda inferior*/
+}
+.container-nav-header{
+    display: flex;/*Para que o grupo fique ao lado do outro */
+    align-items: center; /*Centraliza na vertical*/
+    gap:70px; /*distância entre os elementos*/
+
+}
+.navigation-header ul{ /* Só vai estilizar as tags UL que estiverem dentro de navigation-header */
+    display: flex;/*Para que o grupo fique ao lado do outro */
+    gap: 40px;/*distância entre os elementos*/
+    list-style: none;/*Remove a bolinha*/
+    
+}
+.navigation-header ul li a{
+    text-decoration: none; /*Decoração de texto*/
+    color: var(--color-black); /*Cor do texto */
+    font-family: var(--font-family-primary); /*Familia da fonte*/
+    
+}
+.menu-active{
+    color: var(--color-blue) !important;
+}
+.btn-header{
+
+    font-family: var(--font-family-primary); /*Altera a fonte*/
+    text-decoration: none;/*Tira a decoração do texto*/
+    background-color: var(--color-blue); /*Cor de fundo*/
+    color: var(--color-white); /*cor de texto*/
+    border-radius: 10px; /*arredondamento das bordas*/
+    padding: 10px 20px 10px 20px; /*Espaçamento interno*/
+    font-weight: var(--font-weight-button); /*Espessura da fonte*/
+
+}
