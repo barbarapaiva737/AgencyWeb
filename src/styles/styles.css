@@ -110,3 +110,30 @@ main{
     border: 1px solid var(--color-blue); /*borda do elemento*/
     transition: 0.3s;/*Tempo de transição do elemento*/
 }
+/* -----------------SERVICES ---------------- */
+
+.section-services{
+    display: grid;
+    grid-template-columns: repeat(4, max-content);
+    justify-content: center;
+    padding: 30px 0;
+    gap: 25px;
+    border-bottom: 0.7px solid var(--color-gray-3);
+}
+.container-item-services{
+
+    display: flex;
+    gap: 15px;
+    align-items: center;
+
+}
+.container-item-services h2{
+    font-family: var(--font-family-primary);
+    font-weight: var(--font-weight-h4);
+    font-size: var(--font-size-h4);
+}
+.container-item-services p{
+    font-family: var(--font-family-primary);
+    color: var(--color-gray-2);
+    font-size: var(--font-size-caption);
+}
