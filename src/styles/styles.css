@@ -212,6 +212,32 @@ main{
     
 }
 
+/* -----------------SECTION BENEFIT------------ */
+.section-benefit{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+
+}
+.card-benefit{
+
+    flex-direction: column;
+    display: flex;
+    gap: 35px;
+    align-items: center;
+    padding: 60px 48px;
+    border-radius: 20px;
+}
+
+.card-benefit-secondary{
+    background-color: #F4F4F4;
+    
+}
+.card-benefit p{
+    width: 458px;
+
+}
+
 
 
 
