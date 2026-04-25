@@ -137,3 +137,81 @@ main{
     color: var(--color-gray-2);
     font-size: var(--font-size-caption);
 }
+/* ------------DETAILS-------------- */
+.section-details{
+    display: flex; /*Habilitar o Gap*/
+    flex-direction: column; /*Colocar os elementos em colunas*/
+    gap: 80px; /*Distância entre os elementos*/
+    align-items: center; /*Cuida da horizontal (flex-direction:columm)*/
+    padding: 80px 0; /*Espaçamento interno*/
+}
+.details-presentation{
+    display: flex; /*Habilitar o gap*/
+    flex-direction: column; /*colocar os elementos em coluna*/
+    text-align: center; /*Coloca o texto no centro*/
+    gap: 30px;  /*distancia entre os elementos*/
+
+}
+.details-presentation h2{
+
+    font-size: var(--font-size-h2); /*Tamanho da fonte*/
+    font-family: var(--font-family-primary); /*Familia da fonte*/
+    font-weight: var(--font-weight-h2); /*espessura da fonte*/
+
+}
+.details-presentation p{
+
+    color: var(--color-gray-2); /*cor do texto*/
+    font-family: var(--font-family-primary); /*Tamanho da fonte*/
+    font-size: var(--font-size-body); /*Tamanho da fonte*/
+    width: 665px; /*Largura*/
+    margin: 0 auto;
+
+}
+.service-description{
+    display: flex; /*para colocar um do lado do outro*/
+    gap: 60px;/*distancia entre os elementos*/
+    align-items: center;/*Cuida da vertical*/
+}
+.content-service{
+    display: flex;/*habilitar o gap*/
+    gap: 40px; /*distancia entre os elementos*/
+    flex-direction: column;/*colocar os elementos em coluna*/
+
+}
+.services-details{
+    display: flex;
+    gap: 25px;
+    align-items: center;
+
+}
+.services-details div span{
+    font-family: var(--font-family-primary);/*Tamanho da fonte*/
+    font-weight: var(--font-weight-h4);/*espessura da fonte*/
+    font-size: var(--font-size-h4);/*Tamanho da fonte*/
+}
+.services-details div p{
+    font-family: var(--font-family-primary);/*Tamanho da fonte*/
+    color: var(--color-gray-2);/*cor do texto*/
+    font-size: var(--font-size-caption);/*Tamanho da fonte*/
+}
+.content-service h3{
+    font-size: var(--font-size-h3);
+    font-weight: var(--font-weight-h2);
+    font-family: var(--font-family-primary);
+    width: 420px;
+}
+.content-service h3 span{
+    color: var(--color-blue);
+}
+.content-service p{
+    color: var(--color-gray-2);
+    font-family: var(--font-family-primary);
+    line-height: 27px;
+    width: 445px;   
+    
+}
+
+
+
+
